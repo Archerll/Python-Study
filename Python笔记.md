@@ -1,6 +1,6 @@
 ﻿# Python笔记
 
-标签（空格分隔）： 
+标签（空格分隔）： Python
 ---
   1.python使用
 ---
@@ -136,8 +136,11 @@
     函数 setup(),penup(),pendown(),pensize(),pencolor()
     fd(),cirle()
 
- - **time()库**
- 
+ - **time库，datetime库**
+    Python提供了多种可以进行时间操作的库包括：time、datetime、locale、calender，本次介绍time库和datetime库。
+    - datetime库
+    datetime 模块提供了可以通过多种方式操作日期和时间的类。在支持日期时间数学运算的同时，实现的关注点更着重于如何能够更有效地解析其属性用于格式化输出和数据操作
+
  - **random库**
 
         import random 
@@ -411,8 +414,8 @@ python 中一切都是对象，严格意义我们不能说值传递还是引用�
  - 文件内容读取
  
         a.read()
-        a.readline()
-        a.readlines()
+        a.readline() # 按行读取，每次读取一行
+        a.readlines() # 按行读取，存储为列表
         
  - 数据的文件写入
 
